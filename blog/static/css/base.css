@@ -1,0 +1,89 @@
+body {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+    background-color: #F4F4F8;
+    padding-bottom: 20px;
+}
+header {
+text-align: center;
+padding-bottom: 10px;
+
+
+}
+header h1, a {
+color: #964B00;
+text-decoration: none;
+    text-align: center;
+}
+
+.nav-left {
+background-color: #FED766;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    width: 400px;
+    height: 60px;
+margin-right: auto;
+
+}
+.nav-right {
+
+display: flex;
+padding-top: 2rem;
+}
+
+.changing-cont{
+    margin:auto;
+    vertical-align: center;
+    background-color: #FED766;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 70%;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+
+}
+.post-body{
+
+}
+.post-entry {
+
+    background-color: #898F9C;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+.post-entry h2 {
+margin: 0.5rem 0;
+
+
+}
+.post-entry, h2{
+    background-color: #F4F4F8;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.post-entry h2 a,
+.post-entry h2 a:visited {
+color: blue;
+text-decoration: none
+}
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+.post-entry h2 a:hover {
+color: red;
+}
+h2{
+    padding: 2px;
+}
+.new-post{
+    padding: 10px;
+}
+.log-in{
+    padding: 10px;
+}
