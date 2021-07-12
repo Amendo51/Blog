@@ -9,6 +9,7 @@ class Post(models.Model):
         on_delete=models.CASCADE,
     )
     body = models.TextField()
+    smallbody = str(body)[0:200]
     def __str__(self):
         return self.title
 
